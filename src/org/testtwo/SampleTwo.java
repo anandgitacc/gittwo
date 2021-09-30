@@ -14,6 +14,10 @@ public class SampleTwo {
 		System.out.println("Employee Add is Chennai");
 	}
 	
+	private void empBike() {
+		System.out.println("Employee bike is Royal Enfield");
+	}
+	
 	public static void main(String[] args) {
 		
 		SampleTwo a = new SampleTwo();
@@ -21,7 +25,7 @@ public class SampleTwo {
 		a.empName();
 		a.empMobno();
 		a.empAdd();
-		
+		a.empBike();
 	}
 
 }
